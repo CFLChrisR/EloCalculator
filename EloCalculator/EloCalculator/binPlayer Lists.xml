@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<peopleList xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <peeps>
+    <BasePlayerClass>
+      <name>ee</name>
+      <MMR>1000</MMR>
+      <gamesplayed>0</gamesplayed>
+      <winPercent>100</winPercent>
+      <varianceFactor>1</varianceFactor>
+      <TotalofAllOpponentRatings>0</TotalofAllOpponentRatings>
+      <BasePlayerWins>0</BasePlayerWins>
+      <BasePlayerLosses>0</BasePlayerLosses>
+    </BasePlayerClass>
+  </peeps>
+</peopleList>
