@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <!-- net10.0-windows is the main target; net48 runs on any Windows PC with no extra install. -->
+    <TargetFrameworks>net10.0-windows;net48</TargetFrameworks>
+    <UseWindowsForms>true</UseWindowsForms>
+    <EnableWindowsTargeting>true</EnableWindowsTargeting>
+    <RootNamespace>EloCalculator</RootNamespace>
+    <AssemblyName>EloCalculator</AssemblyName>
+    <AssemblyTitle>Elo Calculator</AssemblyTitle>
+  </PropertyGroup>
+
+  <ItemGroup Condition="'$(TargetFramework)' == 'net48'">
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Drawing" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\EloCalculator.Core\EloCalculator.Core.csproj" />
+  </ItemGroup>
+
+</Project>

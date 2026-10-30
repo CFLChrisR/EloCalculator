@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <!-- netstandard2.0 lets the core run under both .NET Framework 4.8 and modern .NET. -->
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>EloCalculator.Core</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <InternalsVisibleTo Include="EloCalculator.Core.Tests" />
+  </ItemGroup>
+
+</Project>
