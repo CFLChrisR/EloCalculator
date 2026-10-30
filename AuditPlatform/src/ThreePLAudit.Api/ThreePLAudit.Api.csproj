@@ -1,0 +1,13 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <ItemGroup>
+    <ProjectReference Include="..\ThreePLAudit.Core\ThreePLAudit.Core.csproj" />
+    <ProjectReference Include="..\ThreePLAudit.Data\ThreePLAudit.Data.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Seed reference library, loaded into the database on first start. -->
+    <None Include="..\..\data\regulations\*.json" LinkBase="data\regulations" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+
+</Project>
